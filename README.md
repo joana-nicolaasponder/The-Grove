@@ -1,6 +1,6 @@
 # The Grove - Game 2
 
-**Quarterly Game Project - Q3 2024**
+**Quarterly Game Project - Q2 2024**
 
 **👋🏼 Intro:**
 
