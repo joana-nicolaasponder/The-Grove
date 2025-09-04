@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Grove - A Contemplative Game</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        background: #2a2a2a;
+        color: #fff;
+        font-family: 'Courier New', monospace;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+        color: #fff1e8;
+        font-size: 2em;
+        text-align: center;
+      }
+
+      .subtitle {
+        margin-bottom: 20px;
+        color: #c2c3c7;
+        font-style: italic;
+        text-align: center;
+      }
+
+      #gameCanvas {
+        border: 2px solid #5f574f;
+        border-radius: 8px;
+        background: #1d2b53;
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+      }
+
+      .instructions {
+        margin-top: 20px;
+        max-width: 512px;
+        text-align: center;
+        line-height: 1.6;
+        color: #c2c3c7;
+      }
+
+      .controls {
+        margin-top: 15px;
+        padding: 15px;
+        background: #1d2b53;
+        border-radius: 8px;
+        border: 1px solid #5f574f;
+      }
+
+      .controls h3 {
+        margin-top: 0;
+        color: #fff1e8;
+      }
+
+      .controls p {
+        margin: 5px 0;
+        font-size: 14px;
+      }
+
+      .theme {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #83769c;
+        text-align: center;
+        max-width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Grove</h1>
+    <p class="subtitle">Wander into the grove and see what you discover.</p>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div class="instructions">
+      <div class="controls">
+        <h3>Controls</h3>
+        <p>
+          <strong>Arrow Keys</strong> or <strong>WASD</strong> - Move around
+        </p>
+        <p><strong>Space</strong> or <strong>X</strong> - Rest</p>
+      </div>
+    </div>
+
+    <script type="module" src="game.js"></script>
+  </body>
+</html>
