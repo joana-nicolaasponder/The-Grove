@@ -25,7 +25,7 @@ The Grove is a contemplative browser game about rest, productivity culture, and 
 
 **💭 Process:** 
 
-Started with PICO-8 but moved to vanilla JavaScript when pixel art became a blocker rather than enabler. The original 1960-line monolith got refactored into modular ES6 classes (AudioSystem, Player, World, Progression, Renderer, InputHandler) for better maintainability.
+Started with PICO-8 but moved to vanilla JavaScript when pixel art became a blocker rather than enabler. The original got refactored into modular ES6 classes (AudioSystem, Player, World, Progression, Renderer, InputHandler) for better maintainability.
 
 The core insight was designing mechanics that mirror real emotional experiences - the more you chase productivity "urges," the more hollow and gray the world becomes, while rest and stillness literally bring beauty and color back to life.
 
